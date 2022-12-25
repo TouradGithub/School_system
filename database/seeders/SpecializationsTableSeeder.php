@@ -15,7 +15,7 @@ class SpecializationsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('specializations')->delete();
+        // DB::table('specializations')->delete();
         $specializations = [
             ['en'=> 'Arabic', 'ar'=> 'عربي'],
             ['en'=> 'Sciences', 'ar'=> 'علوم'],

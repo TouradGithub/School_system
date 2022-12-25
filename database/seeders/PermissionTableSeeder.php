@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Seeders;
-
+// use App\Models\Permission;
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Permission;
 
@@ -66,10 +66,11 @@ $permissions = [
 
 
 
-foreach ($permissions as $permission) {
+    foreach ($permissions as $permission) {
+        Permission::create(['name' => $permission]);
+    }
 
-Permission::create(['name' => $permission]);
+
 }
 
-    }
 }

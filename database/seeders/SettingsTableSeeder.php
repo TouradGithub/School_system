@@ -14,7 +14,7 @@ class SettingsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('settings')->delete();
+        // DB::table('settings')->delete();
 
         $data = [
             ['key' => 'current_session', 'value' => '2021-2022'],

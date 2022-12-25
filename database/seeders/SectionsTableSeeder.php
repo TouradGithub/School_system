@@ -17,7 +17,7 @@ class SectionsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('sections')->delete();
+        // DB::table('sections')->delete();
 
         $Sections = [
             ['en' => 'a', 'ar' => 'ا'],

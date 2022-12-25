@@ -19,7 +19,7 @@ class ParentsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('my__parents')->delete();
+        // DB::table('my__parents')->delete();
             $my_parents = new My_Parent();
             $my_parents->email = 'samir.gamal77@yahoo.com';
             $my_parents->password = Hash::make('12345678');

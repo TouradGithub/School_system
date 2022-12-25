@@ -15,7 +15,7 @@ class religionTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('religions')->delete();
+        // DB::table('religions')->delete();
 
         $religions = [
 

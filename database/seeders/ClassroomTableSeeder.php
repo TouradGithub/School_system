@@ -16,7 +16,7 @@ class ClassroomTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('classrooms')->delete();
+        // DB::table('classrooms')->delete();
         $classrooms = [
             ['en'=> 'First grade', 'ar'=> 'الصف الاول'],
             ['en'=> 'Second grade', 'ar'=> 'الصف الثاني'],

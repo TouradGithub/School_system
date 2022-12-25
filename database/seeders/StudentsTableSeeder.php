@@ -22,7 +22,7 @@ class StudentsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('students')->delete();
+        // DB::table('students')->delete();
         $students = new Student();
         $students->name = ['ar' => 'احمد ابراهيم', 'en' => 'student Ibrahim'];
         $students->email = 'student@yahoo.com';

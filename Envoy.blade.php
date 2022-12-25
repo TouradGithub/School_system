@@ -20,8 +20,8 @@ $new_release_dir ="/home/u643120521/domains/rimfoot.com/public_html/school/";
 
 
 @story('deploy')
-clone_repository
-run_composer
+{{-- clone_repository
+run_composer --}}
 setup_app
 clean
 succeed
@@ -62,10 +62,7 @@ echo "composer installed  succefuly"
 echo "Setting up the app"
 cd {{ $new_release_dir }}
 pwd
-free -g -h -t && sync && free -g -h
-echo "Run migrate"
-cp .env.example .env
-php artisan key:generate --force
+{{-- bbbbbb --}}
 echo " test key ok"
 php artisan optimize:clear
 echo " test optimize ok"
