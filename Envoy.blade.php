@@ -2,7 +2,7 @@ echo 'connect to server ';
 @servers(['web' => 'u643120521@82.180.172.204 -p65002'])
 echo 'connect to server successfely';
 @setup
-$repository= 'git@github.com:TouradGithub/mon_sitewebe.git';
+$repository= 'git@github.com:TouradGithub/School_system.git';
 $branch = isset($branch) ? $branch : "testing";
 
 $app_dir = "/home/u643120521";
